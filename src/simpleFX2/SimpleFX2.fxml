@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="108.0" prefWidth="298.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simpleFX2.MyController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="57.0" prefWidth="472.0" spacing="20.0">
+         <children>
+            <Button fx:id="b1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Increase" text="Ofra Haza" />
+            <Button fx:id="b2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Decrease" text="Yardena Arazi" />
+         </children>
+      </HBox>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="34.0" prefWidth="298.0" style="-fx-background-color: RED;" text="0" />
+   </children>
+</VBox>
